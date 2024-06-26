@@ -4,3 +4,10 @@
     color:aliceblue;
     text-shadow: 2px 2px 0 #000;
 }
+
+.subtitle.-html{
+    margin-left: 110px;
+    margin-top: 62px;
+    text-shadow: none;
+    font-size: 25px;
+}

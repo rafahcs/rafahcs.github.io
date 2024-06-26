@@ -23,3 +23,11 @@
     display: flex;
     justify-content: space-around;
 }
+
+.banner.-second{
+    padding-top: 44px;
+    background-image: none;
+    background-color: #eef315;
+    border-bottom: solid 10px #F25A70;
+    height: 700px;
+}

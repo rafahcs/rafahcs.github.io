@@ -5,3 +5,13 @@
     text-shadow: 4px 4px 0 #000;
 }
 
+.title.-second{
+    text-align: center;
+    color: #fff;  
+    text-shadow: none;
+}
+
+.title.-html{
+    margin-left: 235px;
+    margin-top: 62px;
+}

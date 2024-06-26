@@ -1,0 +1,50 @@
+- O objetivo do HTML é estruturar e organizar o conteúdo das páginas web, utilizando tags para definir e marcar semanticamente os diferentes elementos.
+- É importante seguir as convenções de nomenclatura padrão, como usar "index.html" para a página principal.
+- A estrutura HTML adequada requer a compreensão das tags de abertura e fechamento para conter e definir adequadamente o conteúdo.
+- HTML semântico, usando as tags corretas para marcar hierarquias e significados de conteúdo, é crucial para acessibilidade e otimização de mecanismos de pesquisa.
+- O HTML tem a responsabilidade de estruturar o conteúdo de uma forma que transmita informações de forma eficaz aos usuários, tanto visualmente quanto para tecnologias assistivas como leitores de tela.
+-Sintaxe:
+    *Tags: Toda tag tem uma abertura(<**tag**>), meio(conteúdo da tag) e um fechamento(<**tag**/>);
+    *Comentário: <!-- **comentário** -->;
+    *Atributo de tag: é a característica da tag. O caminho que o botão do site faz para ir até a página. SEMPRE é colocado na tag de abertura;
+    < tag href = "">
+    *Tudo que tem a ver com configurações e não com o que aparece na página do usuário está na tag <head></head>;
+    *Tudo que tem a ver com a página que está exposta ao usuário está dentro da tag <body></body>;
+    *Para indicar que o código é em html usa-se a tag <html></html> . <html lang="pt-BR" coloca o idioma da página inteira em português do Brasil.
+    *Para indicar que a versão é do HTML5 usa-se a tag <!DOCTYPE html>;
+    *a tag alt="" é o conteúdo lido pedo leitor de tela que auxilia em acessibilidade;
+    *um atributo 'id' preisa possuir valores distintos em cada tag;
+    *
+    
+-Responsabilidades do HTML:
+1ºConteúdo: cudar de todo conteúdo, para que seja exibido;
+2ºEstruturação: estruturar de forma organizada 
+3ºSemântica: escrever as tags da forma correta
+
+-SEO-Search Engenering Optimization
+
+-Usando Emmet
+    *Escrever apenas o nome da tag e apertar <enter> gera a tag aotomaticamente
+    *nome_tag > nome_tag2 gera uma nome_tag, onde dentro dela tem uma tag nome_tag2
+    *gerar tags irmãs(tag abaixo da outra) é só digitar +(sinal de adição)
+    *gerar tags iguais é só colocar a tag multiplicada pela quantidade desejada de tags iguais.
+    Ex: header*5 gera 
+    <header></header>
+    <header></header>
+    <header></header>
+    <header></header>
+    <header></header> 
+    
+    header>img+nav>a*5 
+    gera: <header>
+        <img src="" alt="">
+        <nav>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </nav>
+    </header>  
+
+#site para validar html: https://validator.w3.org/

@@ -1,0 +1,60 @@
+#Estrutura CSS:
+PROPRIEDADE + : + VALOR + ;
+exemplo
+background color : red;
+
+#'margin' é um espaço externo dado entre um texto e outro
+
+#para indicar que duas tags tem as mesmas propriedades é só separá-las entre vírgulas
+exemplo:
+body, a{
+
+}
+
+#Para excluir uma propriedade que é padrão do navegador, basta zerá-la( propriedade: 0px)
+
+#A tag <link> com arquivo reset.css sempre vem antes das outras propriedades, para não gerar bug no site
+
+# O 'inline' é responsável por deixar tudo na mesma linha. 'display: inline' não pode definir width e height.Por isso, é necessário mudar para 'inline-block'.
+
+#reset.css pronto na internet: meyerweb.com/eric/tools/css/reset/
+
+#https://fonts.google.com/ tem fontes que não estão em máquinas
+
+#documentação CSS:  https://developer.mozilla.org/pt-BR/docs/Web/CSS
+
+#palheta de cores: https://materialui.co/flatuicolors
+
+#'transition' é uma propriedade que funciona para animar qualquer propriedade, desde que ela tenha começo, meio e fim.
+
+Para alterar componentes que se repetem não utilizamos 'id', porque o id é único e pode alterar mais de um componente. Em vez disso, utilizamos a 'class' como boa prática. 
+Sintaxes: #nome_id
+.nome_class
+
+Os seletores de tag são sempre usados no reset.css e definidos para o elemento ou tag em si. Para componentes é melhor usar class.
+
+#Componente css -> elemento que é tratado de forma isolada e possuí um corpotamento visual que se repete várias vezes.
+
+#Uma tag div serve para unir conteúdos que não são necessariamente correlatos. Já uma section coloca seções ao site, exemplo uma seção contatos, sobre mim, skills ...
+
+#'Display: block;' faz o elemento ocupar a linha toda, ou seja não deixe espaço para ter elemento ao lado.
+
+#Para criar classes que utilizam de propriedades de uma classe referência, não é necessário criar uma nova classe. Basta usar a variação do comportamento através da estrutura: 
+
+Estrutura html:
+/*
+//tag de referência
+< tag class="tag">" "</tag>
+
+//a 'tag2' usa as propriedades da 'tag' como referência
+< tag2 class="tag -tag2"> "" </tag2> 
+*/
+
+Estrutura CSS:
+/*
+//Significado: modifique o elemento que tenha as propriedades da classe 'tag' para ter as propriedades da classe 'tag2'
+.tag.-tag2{
+ 
+    //propriedades herdadas de tag + propriedades sobrescritas por tag2
+
+}
